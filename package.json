@@ -1,18 +1,22 @@
 {
-  "name": "heinzelmannchen-fs",
+  "name": "heinzelmannchen-generator",
   "version": "0.0.0",
   "description": "File System Stuff",
-  "main": "fs-util.js",
+  "main": "lib/generator.js",
   "directories": {
     "test": "test"
   },
   "dependencies": {
     "q": "~1.0.0",
-    "mock-fs": "~2.2.0",
-    "node-fs": "~0.1.7"
+    "node-fs": "~0.1.7",
+    "commander": "~2.1.0",
+    "winston": "~0.7.2"
   },
   "devDependencies": {
     "mock-fs": "~2.2.0",
+    "proxyquire": "~0.5.3",
+    "sinon-chai": "~2.5.0",
+    "sinon": "~1.9.0",
     "mocha": "~1.17.1",
     "mocha-as-promised": "~2.0.0",
     "chai": "~1.9.0",
@@ -24,14 +28,17 @@
   "scripts": {
     "test": "mocha --reporter spec"
   },
+  "bin": {
+    "heinzelmannchen-generator": "./bin/cli.js"
+  },
   "repository": {
     "type": "git",
-    "url": "https://github.com/heinzelmannchen/heinzelmannchen-fs.git"
+    "url": "https://github.com/heinzelmannchen/heinzelmannchen-generator.git"
   },
   "author": "Christoph Hermann & Sebastian Sprenger",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/heinzelmannchen/heinzelmannchen-fs/issues"
+    "url": "https://github.com/heinzelmannchen/heinzelmannchen-generator/issues"
   },
-  "homepage": "https://github.com/heinzelmannchen/heinzelmannchen-fs"
+  "homepage": "https://github.com/heinzelmannchen/heinzelmannchen-generator"
 }
