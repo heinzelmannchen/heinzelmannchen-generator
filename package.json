@@ -10,7 +10,8 @@
     "q": "~1.0.0",
     "node-fs": "~0.1.7",
     "commander": "~2.1.0",
-    "winston": "~0.7.2"
+    "winston": "~0.7.2",
+    "heinzelmannchen-npm": "git://github.com/heinzelmannchen/heinzelmannchen-npm"
   },
   "devDependencies": {
     "mock-fs": "~2.2.0",
