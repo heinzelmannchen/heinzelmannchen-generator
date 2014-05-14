@@ -1,7 +1,7 @@
 {
   "name": "heinzelmannchen-generator",
-  "version": "0.0.0",
-  "description": "File System Stuff",
+  "version": "1.0.0",
+  "description": "Abstractclass for heinzelmannchen generators",
   "main": "lib/generator.js",
   "directories": {
     "test": "test"
@@ -11,7 +11,8 @@
     "node-fs": "~0.1.7",
     "commander": "~2.1.0",
     "winston": "~0.7.2",
-    "heinzelmannchen-npm": "git://github.com/heinzelmannchen/heinzelmannchen-npm"
+    "underscore": "~1.6.0",
+    "heinzelmannchen-npm": "~1.0.0"
   },
   "devDependencies": {
     "mock-fs": "~2.2.0",
@@ -22,7 +23,6 @@
     "mocha-as-promised": "~2.0.0",
     "chai": "~1.9.0",
     "chai-as-promised": "~4.1.0",
-    "underscore": "~1.6.0",
     "chai-fuzzy": "~1.4.0",
     "mocha-jshint": "0.0.7"
   },
