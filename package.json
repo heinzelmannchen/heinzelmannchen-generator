@@ -1,6 +1,6 @@
 {
   "name": "heinzelmannchen-generator",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Abstractclass for heinzelmannchen generators",
   "main": "lib/generator.js",
   "directories": {
@@ -11,8 +11,7 @@
     "node-fs": "~0.1.7",
     "commander": "~2.1.0",
     "winston": "~0.7.2",
-    "underscore": "~1.6.0",
-    "heinzelmannchen-npm": "~1.0.0"
+    "underscore": "~1.6.0"
   },
   "devDependencies": {
     "mock-fs": "~2.2.0",
